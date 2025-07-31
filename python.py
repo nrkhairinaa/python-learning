@@ -49,5 +49,27 @@ print(age)
 print(type(age))
 
 name = bool (name)
-print(name)
+print(name) 
+
+
+# user input
+
+name = input("Enter your name: ")
+print(f"Hello {name}")
+
+# If statements
+age = int(input("Enter your age: "))
+has_ticket = True
+price = 10.00
+
+if age >= 65:
+    print("You are  a senior citizen")   
+    print(f"The ticket price for a senior is $(price * 0.75)")
+elif age >= 18:
+        print("You are an adult")
+        print(f"The ticket price for an adult is ${price}") 
+else :
+        print("you are a child")
+        print(f"The ticket price for a child is ${price * 0.5}")
+    
 
